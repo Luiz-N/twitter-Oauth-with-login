@@ -1,0 +1,49 @@
+.container {
+  margin: 20px auto;
+  width: 70%;
+  padding: 0 3em;
+  border: 1px dotted #999;
+  font-family: Georgia;
+
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container label, textarea,button{
+  display: block;
+  margin: 1em 0;
+}
+
+.container label{
+  font-size: 1.5em;
+}
+
+.container label p {
+  font-size: .75em;
+}
+
+.container textarea{
+  width: 50%;
+  height: 100px;
+}
+
+.container button{
+  padding: .5em;
+}
+
+.container img {
+  text-align: center;
+  display: none;
+  margin: auto;
+}
+
+.container img.visible {
+  display: block;
+}
+
+
+th {
+  text-align: left;
+}
